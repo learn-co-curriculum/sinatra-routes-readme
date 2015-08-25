@@ -18,7 +18,7 @@ Medicine.all = [
 ]
 ```
 
-Our application gets a request :`GET /medicines/17`. What happens here?
+Our application gets a request: `GET /medicines/17`. What happens here?
 
 The first thing Sinatra does is try to match the request to a specific controller action. The controller action it would match is as follows: `get '/medicines/:id'`. Once the request has been matched to the controller action, then it executes the code inside of the controller action block, as shown below:
 
