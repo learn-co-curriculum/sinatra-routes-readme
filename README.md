@@ -57,7 +57,7 @@ Once the request has been matched to the route in the controller, called the **c
 ```ruby
 # medicines_controller.rb
 
-get '/medicines/:id' do
+get '/medicines' do
   @medicines = Medicine.all
 
   erb :'medicines/index.html.erb'
