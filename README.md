@@ -7,13 +7,13 @@
 
 ## What are routes?
 
-Every time a person clicks on a link, types in a URL, or submits a form, they are making HTTP requests to a specific URL on your application. Routes are the part of an application that connect HTTP requests to a specific part of your application code built to handle responding to such a request (that part of code is called a Controller Action).
+Every time a person clicks on a link, types in a URL, or submits a form, they are making HTTP requests to a specific URL on your application. Routes are the part of an application that connect HTTP requests to a specific method in your application code built to handle responding to such a request (that part of code is called a Controller Action).
 
 Let's say we have a web application that helps doctors track the medications they've prescribed. The doctor would need an easy way to see all the medicines she's prescribed.
 
-In the application's navigation is a link "All Medicines". When the user clicks on that link, it directs the browser via the link's `HREF` attribute to the URL "/medicines" on the domain. The URL "/medicines" must trigger the part of your application built to load the appropriate medicines and send a HTML response with a list of medicines.
+In the application's navigation is a link "All Medicines". When the user clicks on that link, it directs the browser via the link's `HREF` attribute to the URL "/medicines" on the domain. The URL "/medicines" must trigger the method in your application built to load the appropriate medicines and send a HTML response with a list of medicines.
 
-Also in the application's navigation is a link "All Patients". When the user clicks on that link, it directs the browser via the link's `HREF` attribute to the URL "/patients" on the domain. The URL "/patients" must trigger the part of your application built to load the appropriate patients and send a HTML response with a list of patients.
+Also in the application's navigation is a link "All Patients". When the user clicks on that link, it directs the browser via the link's `HREF` attribute to the URL "/patients" on the domain. The URL "/patients" must trigger the method built to load the appropriate patients and send a HTML response with a list of patients.
 
 These mappings are called Routes.
 
