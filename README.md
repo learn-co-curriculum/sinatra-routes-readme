@@ -83,7 +83,7 @@ Let's run through this specific scenario.
 
 Now that we know how routes work, let's take a closer look at their syntax. 
 
-Sinatra is what is known as a Domain Specific Language, or DSL. A DSL is a specialized, situation-specific language. Sinatra was built expressly for the purpose of creating web applications with Ruby. It is written with Ruby and the code we'll be using to build our Sinatra apps is Ruby codes. 
+Sinatra is what is known as a Domain Specific Language, or DSL. A DSL is a specialized, situation-specific language. Sinatra was built expressly for the purpose of creating web applications with Ruby. It is written with Ruby and the code we'll be using to build our Sinatra apps is Ruby code. 
 
 The route below:
 
@@ -111,4 +111,6 @@ The `get` , or the `post`, or `delete` methods for that matter, will be invoked 
 
 - [Routes in Sinatra](http://www.sinatrarb.com/intro.html#Routes)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-routes-readme' title='Routes in Sinatra'>Routes in Sinatra</a> on Learn.co and start learning to code for free.</p>
+<a href='https://learn.co/lessons/sinatra-routes-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-routes-readme'>Sinatra Routes</a> on Learn.co and start learning to code for free.</p>
