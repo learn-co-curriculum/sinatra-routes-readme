@@ -6,7 +6,7 @@ In this lesson, we'll explore routes and how they direct users to different part
 
 ## Objectives
 
-1. Define routes as the part of an application that connect HTTP requests to a specific method in your application code
+1. Define routes as the part of an application that connects HTTP requests to a specific method in your application code
 2. Construct a route by matching an HTTP method/verb, like `GET` or `POST` with a URL-matching pattern
 3. Explain the syntax of routes as Ruby methods that are called with arguments and blocks
 
