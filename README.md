@@ -105,7 +105,7 @@ get('/medicines') { some code }
 
 The `get` , or the `post`, or `delete` methods for that matter, will be invoked if Sinatra matches the HTTP method (`GET`, `POST`, etc) *and* the URL, in this case `'/medicines'`, to a route defined in the controller. 
 
-**Advanced:** If you're curious, check out the Sinatra source code, [especially that code that defines the `#get`, `#post`, `#patch` and `#delete` methods](https://github.com/sinatra/sinatra/blob/master/lib/sinatra/base.rb#L1367). 
+**Advanced:** If you're curious, check out the Sinatra source code, [especially that code that defines the `#get`, `#post`, `#patch` and `#delete` methods](https://github.com/sinatra/sinatra/blob/master/lib/sinatra/base.rb#L1398). 
 
 ### Resources
 
@@ -114,3 +114,5 @@ The `get` , or the `post`, or `delete` methods for that matter, will be invoked 
 <a href='https://learn.co/lessons/sinatra-routes-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-routes-readme'>Sinatra Routes</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-routes-readme'>Sinatra Routes</a> on Learn.co and start learning to code for free.</p>
