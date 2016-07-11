@@ -1,6 +1,6 @@
 # Routes in Sinatra
 
-## Overview 
+## Overview
 
 In this lesson, we'll explore routes and how they direct users to different parts of your website
 
@@ -67,7 +67,7 @@ get '/medicines' do
 end
 ```
 
-**Advanced:** You might be wondering what this line does for us: `erb :'/medicines/index.html.erb`. We'll learn much more about ERB soon. For now, all you need to know is that that line of code identifies a file that contains a combination of HTML and Ruby code and sends it back to the client to be rendered in the browser. 
+**Advanced:** You might be wondering what this line does for us: `erb :'/medicines/index.html.erb`. We'll learn much more about ERB soon. For now, all you need to know is that that line of code identifies a file that contains a combination of HTML and Ruby code and sends it back to the client to be rendered in the browser.
 
 Let's run through this specific scenario.
 
@@ -81,21 +81,21 @@ Let's run through this specific scenario.
 
 ### Breaking Down Route Definition
 
-Now that we know how routes work, let's take a closer look at their syntax. 
+Now that we know how routes work, let's take a closer look at their syntax.
 
-Sinatra is what is known as a Domain Specific Language, or DSL. A DSL is a specialized, situation-specific language. Sinatra was built expressly for the purpose of creating web applications with Ruby. It is written with Ruby and the code we'll be using to build our Sinatra apps is Ruby code. 
+Sinatra is what is known as a Domain Specific Language, or DSL. A DSL is a specialized, situation-specific language. Sinatra was built expressly for the purpose of creating web applications with Ruby. It is written with Ruby and the code we'll be using to build our Sinatra apps is Ruby code.
 
 The route below:
 
 ```ruby
-get '/medicines' do 
+get '/medicines' do
 	# some code to get the medicines and render the correct HTML file
 end
 ```
 
-is actually a plain old-fashioned Ruby method that is getting called with an argument and a block. 
+is actually a plain old-fashioned Ruby method that is getting called with an argument and a block.
 
-Here, the `get` method is called with an argument of `'/medicines'` and is being invoked with a block (the code between the `do`/`end` keywords. 
+Here, the `get` method is called with an argument of `'/medicines'` and is being invoked with a block (the code between the `do`/`end` keywords.
 
 Here's another way to write it that might look familiar:
 
@@ -103,9 +103,9 @@ Here's another way to write it that might look familiar:
 get('/medicines') { some code }
 ```
 
-The `get` , or the `post`, or `delete` methods for that matter, will be invoked if Sinatra matches the HTTP method (`GET`, `POST`, etc) *and* the URL, in this case `'/medicines'`, to a route defined in the controller. 
+The `get` , or the `post`, or `delete` methods for that matter, will be invoked if Sinatra matches the HTTP method (`GET`, `POST`, etc) *and* the URL, in this case `'/medicines'`, to a route defined in the controller.
 
-**Advanced:** If you're curious, check out the Sinatra source code, [especially that code that defines the `#get`, `#post`, `#patch` and `#delete` methods](https://github.com/sinatra/sinatra/blob/master/lib/sinatra/base.rb#L1367). 
+**Advanced:** If you're curious, check out the Sinatra source code, [especially that code that defines the `#get`, `#post`, `#patch` and `#delete` methods](https://github.com/sinatra/sinatra/blob/939ce04c1b77d24dd78285ba0836768ad57aff6c/lib/sinatra/base.rb#L1398).
 
 ### Resources
 
