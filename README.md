@@ -46,7 +46,7 @@ When our doctor types into the browser, `http://localhost:9393/medicines`, our a
 
 Our Sinatra application will match this request to a route that is defined in a controller.
 
-The matching route defined in the controller would look like this:
+In Sinatra, a route is an HTTP method paired with a URL-matching pattern. Each route is associated with a block. The matching route defined in the controller would look like this:
 
 ```ruby
 get '/medicines' do
