@@ -110,7 +110,3 @@ The `get` , or the `post`, or `delete` methods for that matter, will be invoked 
 ### Resources
 
 - [Routes in Sinatra](http://www.sinatrarb.com/intro.html#Routes)
-
-<a href='https://learn.co/lessons/sinatra-routes-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-routes-readme'>Sinatra Routes</a> on Learn.co and start learning to code for free.</p>
